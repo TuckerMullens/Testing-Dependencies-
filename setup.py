@@ -22,7 +22,7 @@ URL = 'https://github.com/TuckerMullens/TestingDependencies'
 EMAIL = 'mullte17@wfu.edu'
 AUTHOR = ['Tucker Mullens']
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = 1.3
+VERSION = 1.4
 REQUIRED = []
 
 # What packages are required for this module to be executed?
