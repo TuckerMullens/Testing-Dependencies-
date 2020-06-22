@@ -24,23 +24,10 @@ AUTHOR = ['Tucker Mullens']
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = 1.3
 REQUIRED = []
-DEPENDENCY_LINKS = []
 
 # What packages are required for this module to be executed?
-with open('requirements.txt', 'r') as _file:
-    for req in requirements.parse(_file):
-        if req.specifier:
-            REQUIRED.append(req.line)
-        elif req.uri:
-            # need to append the whole path with #egg=, not just the uri
-            path = req.line.replace(
-                '-e ',
-                '')  # remove the optional -e prefix of the editable line
-            DEPENDENCY_LINKS.append(path)
-            REQUIRED.append(
-                req.name)  # Seems like ralib-0.1 works, as well as ralib
-        else:
-            raise NotImplementedError
+with open('requirements.txt', 'r') as f:
+        REQUIRED = [line.rstrip() for line in f]
 
 # What packages are optional?
 EXTRAS = {
@@ -101,5 +88,4 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
-    ],
-    dependency_links=DEPENDENCY_LINKS)
+    ])

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: TestingDependencies
+Version: 1.3
+Summary: Testing repository for dependency checking
+Home-page: https://github.com/TuckerMullens/TestingDependencies
+Author: ['Tucker Mullens']
+Author-email: mullte17@wfu.edu
+License: UNKNOWN
+Description: 
+        # Testing-Dependencies-
+        
+        Hey this is a dummy testing repo
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

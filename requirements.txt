@@ -1,1 +1,1 @@
-numpy==1.17.3
+numpy @ git+https://github.com/numpy/numpy@master#egg=numpy-v1.17.3
