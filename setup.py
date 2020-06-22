@@ -16,13 +16,13 @@ subprocess.call(
 import requirements  # noqa: F401
 
 # Package meta-data.
-NAME = 'Testing-Dependencies-'
+NAME = 'TestingDependencies'
 DESCRIPTION = 'Testing repository for dependency checking'
-URL = 'https://github.com/TuckerMullens/Testing-Dependencies-.git'
+URL = 'https://github.com/TuckerMullens/TestingDependencies'
 EMAIL = 'mullte17@wfu.edu'
 AUTHOR = ['Tucker Mullens']
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = 1.1
+VERSION = 1.3
 REQUIRED = []
 DEPENDENCY_LINKS = []
 
